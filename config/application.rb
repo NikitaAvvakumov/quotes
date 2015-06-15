@@ -44,7 +44,7 @@ module Quotes
 
     config.action_dispatch.default_headers.merge!({
       'Access-Control-Allow-Origin' => '*', # TODO: lock down
-      'Access-Control-Request-Method' => %w{GET POST OPTIOINS}.join(","),
+      'Access-Control-Request-Method' => %w{GET POST OPTIONS}.join(","),
       'Access-Control-Allow-Headers' => 'Content-Type'
     })
   end
